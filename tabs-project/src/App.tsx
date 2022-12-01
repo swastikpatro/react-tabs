@@ -47,7 +47,7 @@ function App(): JSX.Element {
   if (error) {
     return (
       <main className='App'>
-        <h2>Can't fetch data</h2>
+        <h2 style={{ color: 'red' }}>Can't fetch data</h2>
       </main>
     );
   }
